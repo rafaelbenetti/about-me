@@ -1,0 +1,19 @@
+{
+  "name": "about-me",
+  "version": "1.0.0",
+  "description": "Simple nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbenetti/about-me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbenetti/about-me/issues"
+  },
+  "homepage": "https://github.com/rafaelbenetti/about-me#readme"
+}
