@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Rafael Benetti Profile">
-    <meta name="keywords" content="Rafael Benetti, Profile, Web Development">
-    <meta name="author" content="Rafael de Oliveira Benetti">    
-    <title>Rafael de Oliveira Benetti</title>
-    <link rel="stylesheet" href="style.css"></link>
-  </head>
-  <body>
-    <section class="content">
-      <div>
-        <h1>Rafael de Oliveira Benetti</h1>
-        <h2>Web Developer</h2>
-      <p>Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per</p>
-      </div>
-      <div>
-        <h3>About me</h3>
-        <p>
-          Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Viva Forevis aptent taciti sociosqu ad litora torquent
-        </p>
-        <p>
-          Manduma pindureta quium dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si num tem leite então bota uma pinga aí cumpadi! Paisis, filhis, espiritis santis.
-        </p>
-      </div>
-      <div>
-        <h3>Skills</h3>
-        <label>C# <span></span></label>
-        <label>C# <span></span></label>
-      </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Rafael Benetti Profile">
+  <meta name="keywords" content="Rafael Benetti, Profile, Web Development">
+  <meta name="author" content="Rafael de Oliveira Benetti">
+  <title>Rafael de Oliveira Benetti</title>
+  <link rel="stylesheet" href="/css/font-awesome.min.css"></link>
+  <link rel="stylesheet" href="/css/style.css"></link>
+  <link rel="stylesheet" href="/fonts/Oswald-Regular.ttf">
+</head>
+
+<body>
+  <main class="content">
+    <section class="name">
+      <h1>Rafael de Oliveira Benetti</h1>
+      <h2>Web Developer</h2>
     </section>
-    <footer>  
-      <div>Manduma pindureta quium dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si num tem leite então bota uma pinga aí cumpadi! Paisis, filhis, espiritis santis.</div>    
+    <section class="about-me">
+      <hr />
+      <h3>Who Am I?</h3>
+      <p>
+        In the REST world, the resource is key, and it’s really tempting to simply look at a Django model and make a direct link between resources and models – one model, one resource. This fails, though, as soon as you need to provide any sort of aggregated resource, and it really fails with highly denormalized models. Think about a Superhero model: a single GET /heros/superman/ ought to return all his vital stats along with a list of related Power objects, a list of his related Friend objects, etc. So the data associated with a resource might actually come out of a bunch of models. Think select_related(), except arbitrary. Manduma pindureta quium dia nois paga. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Si num tem leite então
+        bota uma pinga aí cumpadi! Paisis, filhis, espiritis santis.
+      </p>
+    </section>
+    <section class="carrer">
+      <h3>How about my carrer?</h3>
+      <p>
+        In the REST world, the resource is key, and it’s really tempting to simply look at a Django model and make a direct link between resources and models – one model, one resource. This fails, though, as soon as you need to provide any sort of aggregated resource, and it really fails with highly denormalized models. Think about a Superhero model.
+      </p>
+    </section>
+    <section class="skills">
+      <h3>What are my skills?</h3>
+      <p>
+        In the REST world, the resource is key, and it’s really tempting to simply look at a Django model and make a direct link between resources and models.
+      </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Node JS</li>
+        <li>Rest API</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h3>Do you want to contact me?</h3>
       <contact>
-        <a href="www.linkedin.com">Linkedin<a/>
-        <a href="www.linkedin.com">Stackoverflow<a/>
-        <a href="www.linkedin.com">Github<a/>
-      </contact>
+        <a href="" target="_blank">
+          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        </a>    
+        <a href="https://github.com/rafaelbenetti" target="_blank">
+          <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+        </a>  
+        <a href="" target="_blank">
+          <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+        </a>  
+        <a href="" target="_blank">
+          <i class="fa fa-skype fa-3x" aria-hidden="true"></i>
+        </a> 
+      </contact>    
+     </section> 
     </footer>
   </body>
 </html>
