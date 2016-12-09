@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github, .icon-linkedin, .icon-codepen {
+  font-size: 3em;
+}
+
+.icon-github:before {
+  content: "\e901";
+}
+.icon-linkedin:before {
+  content: "\e900";
+}
+.icon-codepen:before {
+  content: "\eae8";
+}
+
