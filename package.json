@@ -1,0 +1,37 @@
+{
+  "name": "about-me",
+  "version": "1.0.0",
+  "description": "Personal profile with Progressive Web App",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbenetti/about-me.git"
+  },
+  "keywords": [
+    "profile",
+    "wpa",
+    "offline",
+    "first",
+    "service",
+    "worker"
+  ],
+  "author": "Rafael de Oliveira Benetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbenetti/about-me/issues"
+  },
+  "homepage": "https://github.com/rafaelbenetti/about-me#readme",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp-clean-css": "^2.2.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4"
+  }
+}
