@@ -9,12 +9,23 @@ a:visited {
     color: #FFFFFF;
 }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url('../../fonts/Oswald-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, sans-serif;    
     font-size: 16px;
     color: #424242;
     text-align: center;
     margin: 0;
+}
+
+.fonts-loaded body {
+  font-family: 'Oswald', sans-serif;
 }
 
 h1,

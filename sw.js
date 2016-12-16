@@ -1,12 +1,13 @@
-var CACHE_NAME = 'about-me-v1';
+var CACHE_NAME = 'about-me-v2';
 var urlsToCache = [
   '/',
   '/index.html',
   '/fonts/icomoon.ttf',
   '/fonts/Oswald-Regular.ttf',
   '/css/font-awesome.css',
-  '/css/style.css',
-  '/js/index.js'  
+  '/css/assets/style.min.css',
+  '/js/dist/script.min.js',
+  '/node_modules/fontfaceobserver/fontfaceobserver.standalone.js'
 ];
 
 self.addEventListener('install', function(event) {
