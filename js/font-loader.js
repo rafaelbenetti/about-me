@@ -15,9 +15,11 @@ var FontLoader = (function () {
             font.load()
         ]).then(function () {
             html.classList.add('fonts-loaded');
-            console.log('Output Sans has loaded.');
+            sessionStorage.fontsLoaded = true;
+            console.log('Oswald has loaded.');
         }).catch(function () {
-            console.log('Output Sans has timed out.');
+            sessionStorage.fontsLoaded = false;
+            console.log('Oswald has timed out.');
         });
     }
 
