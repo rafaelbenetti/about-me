@@ -1,12 +1,14 @@
-var CACHE_NAME = 'about-me-v2';
+var CACHE_NAME = 'about-me-v3';
 var urlsToCache = [
   '/',
-  '/index.html',
-  '/fonts/icomoon.ttf',
-  '/fonts/Oswald-Regular.ttf',
+  '/index.html',  
   '/css/font-awesome.css',
   '/css/assets/style.min.css',
   '/js/dist/script.min.js',
+  '/images/social/codepen.png',
+  '/images/social/github.png',
+  '/images/social/linkedin.png',
+  '/fonts/Oswald-Regular.ttf',
   '/node_modules/fontfaceobserver/fontfaceobserver.standalone.js'
 ];
 

@@ -1,9 +1,9 @@
 {
-  "short_name": "RafaelBenetti",
-  "name": "Rafael Benetti",
+  "short_name": "Rafael Benetti",
+  "name": "Rafael de Oliveira Benetti",
   "start_url": "index.html",
-  "theme_color": "#2196F3",
-  "background_color": "#2196F3",
+  "theme_color": "#fd8469",
+  "background_color": "#fd8469",
   "icons": [{
     "src": "images/touch/homescreen48.png",
     "sizes": "48x48",
