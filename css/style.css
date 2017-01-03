@@ -19,7 +19,7 @@ a:visited {
 body {
     font-family: Verdana, sans-serif;    
     font-size: 16px;
-    color: #424242;
+    color: #2C3E50;
     text-align: center;
     margin: 0;
 }
@@ -57,9 +57,9 @@ footer {
 }
 
 section {
-    display: inline-block;
-    text-align: justify;
-    width: 80%;
+    display: inline-block;    
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 section h3 {
@@ -67,13 +67,17 @@ section h3 {
 }
 
 section.name {
-    height: 300px;
-    margin-top: 150px;
+    padding-top: 50px;
+    height: 300px;    
     text-align: center;
 }
 
+section.skills {
+    text-align: initial;
+}
+
 body footer {
-    background-color: #424242;
+    background-color: #2C3E50;
     color: #FFFFFF;
     min-height: 200px;
     text-align: center;
@@ -90,6 +94,18 @@ footer a {
     text-decoration: none;
 }
 
+section.carrer {
+    background-color: #DB0A5B;
+    color: white;
+    width: 100%;
+}
+
+section.name {
+    background-color: #2C3E50;
+    color: white;
+    width: 100%;
+}
+
 @media screen and (max-width:425px) {    
     
     section {
@@ -97,7 +113,7 @@ footer a {
     }
 
     section.name {
-        margin-top: 50px;
+        height: 600px;    
     }
 
     footer {
@@ -106,15 +122,7 @@ footer a {
 }
 
 @media screen and (min-width:426px) and (max-width:800px) {    
-    
-    section {
-        font-size: 1.3em;
-    }
-
-    section.name {
-        margin-top: 75px;
-    }
-
+       
     footer {
         height: 200px;
     }
@@ -122,12 +130,14 @@ footer a {
 
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
     section {
-        width: 65%;
+        padding-left: 17%;
+        padding-right: 17%;
     }
 }
 
 @media screen and (min-width: 1801px) {
     section {
-        width: 50%;
+        padding-left: 25%;
+        padding-right: 25%;
     }
 }
