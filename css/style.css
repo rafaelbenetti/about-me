@@ -89,3 +89,45 @@ footer a {
     background-color: transparent;
     text-decoration: none;
 }
+
+@media screen and (max-width:425px) {    
+    
+    section {
+        font-size: 1.3em;
+    }
+
+    section.name {
+        margin-top: 50px;
+    }
+
+    footer {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:800px) {    
+    
+    section {
+        font-size: 1.3em;
+    }
+
+    section.name {
+        margin-top: 75px;
+    }
+
+    footer {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    section {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    section {
+        width: 50%;
+    }
+}
