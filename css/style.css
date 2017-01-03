@@ -58,8 +58,8 @@ footer {
 
 section {
     display: inline-block;    
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 section h3 {
@@ -106,10 +106,12 @@ section.name {
     width: 100%;
 }
 
-@media screen and (max-width:425px) {    
+@media screen and (max-width:800px) {    
     
     section {
         font-size: 1.3em;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     section.name {
