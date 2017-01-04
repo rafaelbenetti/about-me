@@ -10,7 +10,8 @@ var urlsToCache = [
   '/images/social/linkedin.png',
   '/fonts/Oswald-Regular.ttf',
   '/icons/favicon.ico',
-  '/node_modules/fontfaceobserver/fontfaceobserver.standalone.js'
+  '/node_modules/fontfaceobserver/fontfaceobserver.standalone.js',
+  '/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
