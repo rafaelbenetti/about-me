@@ -114,6 +114,12 @@ section.carrer {
     background-color: #FFFFFF;
 }
 
+@media screen and (max-width:425px) {
+    footer a {
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width:800px) {
     section {
         font-size: 1.3em;
