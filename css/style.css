@@ -180,11 +180,11 @@ section.carrer {
         direction: rtl;
     }
     section.skills h3 {
-        padding-right: 10%;
+        padding-right: 20px;
         text-align: right;
     }
     section.next-steps h3 {
-        padding-left: 10%;
+        padding-left: 20px;
         text-align: left;
     }
 }
