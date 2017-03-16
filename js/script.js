@@ -3,7 +3,7 @@ var Main = (function () {
   var configureServiceWorker = function() {
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('../sw.js');
+        navigator.serviceWorker.register('../about-me/sw.js');
       });
     }
   }

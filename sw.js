@@ -8,6 +8,7 @@ var urlsToCache = [
   '/images/social/codepen.png',
   '/images/social/github.png',
   '/images/social/linkedin.png',
+  '/images/social/gmail.png',
   '/fonts/Oswald-Regular.ttf',
   '/icons/favicon.ico',
   '/node_modules/fontfaceobserver/fontfaceobserver.standalone.js',
