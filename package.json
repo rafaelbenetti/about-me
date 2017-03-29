@@ -2,7 +2,7 @@
   "name": "about-me",
   "version": "1.0.0",
   "description": "Personal profile with Progressive Web App",
-  "main": "sw.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
