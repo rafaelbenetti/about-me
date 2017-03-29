@@ -1,17 +1,18 @@
 var CACHE_NAME = 'about-me-v3';
 var urlsToCache = [
-  '/',
-  '/index.html',  
-  '/css/font-awesome.css',
-  '/css/assets/style.min.css',
-  '/js/dist/script.min.js',
-  '/images/social/codepen.png',
-  '/images/social/github.png',
-  '/images/social/linkedin.png',
-  '/fonts/Oswald-Regular.ttf',
-  '/icons/favicon.ico',
-  '/node_modules/fontfaceobserver/fontfaceobserver.standalone.js',
-  '/manifest.json'
+  '/about-me',
+  'index.html',  
+  'css/font-awesome.css',
+  'css/assets/style.min.css',
+  'js/dist/script.min.js',
+  'js/dist/fontfaceobserver.standalone.js',
+  'images/social/codepen.png',
+  'images/social/github.png',
+  'images/social/linkedin.png',
+  'images/social/gmail.png',
+  'fonts/Oswald-Regular.ttf',
+  'icons/favicon.ico',  
+  'manifest.json'
 ];
 
 self.addEventListener('install', function(event) {

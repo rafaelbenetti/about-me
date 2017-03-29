@@ -178,6 +178,7 @@ section.carrer {
     section.skills {
         float: left;
         direction: rtl;
+        text-align: right;
     }
     section.skills h3 {
         padding-right: 20px;
