@@ -11,7 +11,7 @@ var FontLoader = (function () {
         var html = document.documentElement;
 
         Promise.race([
-            timer(1000),
+            timer(100),
             font.load()
         ]).then(function () {
             html.classList.add('fonts-loaded');
